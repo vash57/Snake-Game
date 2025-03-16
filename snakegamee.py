@@ -25,7 +25,8 @@ head.penup()
 head.goto(0, 0)
 head.direction = "stop"
 
-# Snake food
+print("Snake food")
+# Snake food 
 food = turtle.Turtle()
 food.speed(0)
 food.shape("square")
